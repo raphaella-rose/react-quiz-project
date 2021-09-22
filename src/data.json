@@ -1,38 +1,47 @@
  [
     {
-      "questionText": "What is the capital of France?",
+      "questionText": "What does Hakuna Matata mean?",
       "answerOptions": [
-        {"answerText": "New York", "isCorrect": false },
-        {"answerText": "London", "isCorrect": false},
-        {"answerText": "Paris", "isCorrect": true},
-        {"answerText": "Dublin", "isCorrect": false}
+        {"answerText": "It's all good", "isCorrect": false },
+        {"answerText": "I love you", "isCorrect": false},
+        {"answerText": "No worries", "isCorrect": true},
+        {"answerText": "Have a nice day", "isCorrect": false}
       ]
     },
      {
-      "questionText": "Who is the CEO of tesla?",
+      "questionText": "What is the name of Belle's father in Beauty and the Beast?",
       "answerOptions": [
-        {"answerText": "Jeff Bezoz", "isCorrect": false },
-        {"answerText": "Elon Musk", "isCorrect": true},
-        {"answerText": "Bill Gates", "isCorrect": false},
-        {"answerText": "Tony Stark", "isCorrect": false}
+        {"answerText": "Jeff", "isCorrect": false },
+        {"answerText": "Maurice", "isCorrect": true},
+        {"answerText": "Claude", "isCorrect": false},
+        {"answerText": "Julien", "isCorrect": false}
       ]
     },
      {
-      "questionText": "Which animated film company created Mickey Mouse?",
+      "questionText": "In The Princess Diaries, Mia Thermopolis is heir to the throne of which fictional European country? ",
       "answerOptions": [
-        {"answerText": "Disney", "isCorrect": true},
-        {"answerText": "Pixar", "isCorrect": false},
-        {"answerText": "Dreamworks", "isCorrect": false},
-        {"answerText": "Blue Sky", "isCorrect": false}
+        {"answerText": "Genovia", "isCorrect": true},
+        {"answerText": "Averna", "isCorrect": false},
+        {"answerText": "Atlantis", "isCorrect": false},
+        {"answerText": "Zembla", "isCorrect": false}
       ]
     },
      {
-      "questionText": "How many Harry Potter books are there?",
+      "questionText": "How many sisters does Ariel have?",
       "answerOptions": [
-        {"answerText": "1", "isCorrect": false },
+        {"answerText": "5", "isCorrect": false },
         {"answerText": "4", "isCorrect": false},
-        {"answerText": "6", "isCorrect": false},
-        {"answerText": "7", "isCorrect": true}
+        {"answerText": "7", "isCorrect": false},
+        {"answerText": "6", "isCorrect": true}
+      ]
+    },
+     {
+      "questionText": "When Will My Life Begin is a song from which Disney film?",
+      "answerOptions": [
+        {"answerText": "Frozen", "isCorrect": false },
+        {"answerText": "Tangled", "isCorrect": true},
+        {"answerText": "Cinderella", "isCorrect": false},
+        {"answerText": "Beauty and the Beast", "isCorrect": false}
       ]
     }
   ]

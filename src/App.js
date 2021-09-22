@@ -10,15 +10,13 @@ function App() {
  
   const handleClick = (isCorrect) => {
   if (isCorrect) {
-   setScore(score + 1);
-  }
+   setScore(score + 1);}
   const nextQuestion = currentQuestion + 1;
   if (nextQuestion < questions.length) {
   setCurrentQuestion(nextQuestion);
   } else {
   setShowScore(true);
-  }
-  }
+  }}
   return (
     <div className='app'>
 			{showScore ? (
