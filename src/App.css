@@ -2,7 +2,7 @@
   text-align: center;
 }
 .App .Container {
-  margin: 0 500px;
+  margin: 0 400px;
 }
 .App h1 {
   color: #f95959;
@@ -40,7 +40,7 @@
   color: #f95959;
   font-family: "Yaldevi", sans-serif;
   font-size: 14px;
-  margin: 0 3px;
+  margin: 0 3px 3px;
   transition: ease-in-out 150ms;
 }
 button:hover {
@@ -67,4 +67,17 @@ button:hover {
 .App .link {
   color: #f95959;
   text-decoration: none;
+}
+@media (max-width: 1025px) {
+  .App .Container {
+    margin: 0 100px;
+  }
+}
+@media (max-width: 448px) {
+  .App h1 {
+    font-size: 35px;
+  }
+  .App .Container {
+    margin: 0 30px;
+  }
 }
