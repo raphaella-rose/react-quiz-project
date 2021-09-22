@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "./Footer"
 import data from "./data.json";
 import './App.css';
 
@@ -18,23 +19,29 @@ function App() {
   setShowScore(true);
   }}
   return (
-    <div className='app'>
+    <div className='App'>
 			{showScore ? (
-				<div className='score-section'>You scored {score} out of {questions.length}</div>
+      <div className="Container">
+      <h1>Disney Quiz</h1>
+				<div className='score-section'>You scored {score} out of {questions.length}!</div>
+        <Footer />
+        </div>
 			) : (
-				<>
-					<div className='question-section'>
+				<div className="Container">
+          <h1>Disney Quiz</h1>
 						<div className='question-count'>
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
+            <div className="question-and-answer">
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
-					</div>
 					<div className='answer-section'>
 					{questions[currentQuestion].answerOptions.map((answerOption, index) => (
             <button onClick={() => handleClick(answerOption.isCorrect)} key={index}>{answerOption.answerText}</button>
           ))}	
 					</div>
-				</>
+          </div>
+          <Footer />
+				</div>
 			)}
 		</div>
 	);

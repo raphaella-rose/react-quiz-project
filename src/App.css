@@ -1,3 +1,70 @@
 .App {
   text-align: center;
 }
+.App .Container {
+  margin: 0 500px;
+}
+.App h1 {
+  color: #f95959;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin: 45px 0;
+}
+.App .question-count {
+  color: #233142;
+  font-family: "Yaldevi", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  text-decoration: underline;
+}
+.App .question-text {
+  color: #455d7a;
+  font-family: "Yaldevi", sans-serif;
+  font-family: 18px;
+  font-weight: 500;
+}
+.App .answer-section {
+  margin-top: 15px;
+}
+.App .question-and-answer {
+  border: 3px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+  padding: 15px 6px;
+}
+.App button {
+  background: #e3e3e3;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  color: #f95959;
+  font-family: "Yaldevi", sans-serif;
+  font-size: 14px;
+  margin: 0 3px;
+  transition: ease-in-out 150ms;
+}
+button:hover {
+  background: #f95959;
+  border: 1px solid #f95959;
+  border-radius: 8px;
+  color: #e3e3e3;
+  cursor: pointer;
+}
+.App .score-section {
+  color: #233142;
+  font-family: "Yaldevi", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.Footer {
+  margin-top: 75px;
+}
+.Footer .signature {
+  color: #455d7a;
+  font-family: "Yaldevi", sans-serif;
+  font-weight: 400;
+}
+.App .link {
+  color: #f95959;
+  text-decoration: none;
+}
